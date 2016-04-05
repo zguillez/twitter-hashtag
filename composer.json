@@ -1,12 +1,22 @@
 {
-    "name": "zguillez/twitter-hashtag",
-    "authors": [
-        {
-            "name": "Guillermo de la Iglesia",
-            "email": "zguillez@gmail.com"
-        }
-    ],
-    "require": {
-        "abraham/twitteroauth": "^0.6.3"
+  "name": "zguillez/twitter-hashtag",
+  "description": "PHP module for get the last tweets from one hashtag",
+  "keywords": [
+    "Php",
+    "twitter",
+    "hashtag"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillermo de la Iglesia",
+      "email": "zguillez@gmail.com"
     }
+  ],
+  "require": {"abraham/twitteroauth": "^0.6.3"},
+  "autoload": {
+    "psr-4": {
+      "Z\\": "src/"
+    }
+  }
 }
