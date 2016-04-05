@@ -1,0 +1,12 @@
+{
+    "name": "zguillez/example",
+    "authors": [
+        {
+            "name": "Guillermo de la Iglesia",
+            "email": "zguillez@gmail.com"
+        }
+    ],
+    "require": {
+        "zguillez/twitter-hashtag": "^0.0.3"
+    }
+}
