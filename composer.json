@@ -1,0 +1,12 @@
+{
+    "name": "zguillez/twitter-hashtag",
+    "authors": [
+        {
+            "name": "Guillermo de la Iglesia",
+            "email": "zguillez@gmail.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^0.6.3"
+    }
+}
